@@ -1,0 +1,19 @@
+word = ""
+
+while True:
+    user_input = input().split()
+    word = (user_input[0])
+    if word == 'quit':
+        break
+
+    number = (user_input[1])
+    print('Eating {} {} a day keeps the doctor away.'.format(number, word))
+    
+    stop = "go"
+
+while stop != "quit":
+    stop = user_input[0]
+    if user_input[0] == 'quit':
+        break
+    print('Eating {} {} a day keeps the doctor away.'.format(user_input[1], user_input[0]))
+    
